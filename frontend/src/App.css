@@ -1,0 +1,50 @@
+body {
+  font-family: "Roboto Serif", "Sofia Sans", sans-serif;
+  background-size: 300vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  background-color: #6ba3f9;
+  color: #291603;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #d6dfba;
+}
+
+.progress {
+  height: 20px;
+  width: 50%;
+  background-color: #a3a3a3;
+  border-radius: 10px;
+}
+
+.progressBar {
+  height: 100%;
+  background-color: #a7b775;
+  border-radius: 10px;
+  width: 0;
+  animation: progressing 5s forwards;
+}
+
+@keyframes progressing {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}

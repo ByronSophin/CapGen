@@ -1,0 +1,26 @@
+# Django (backend)
+backend/__pycache__/
+backend/*.sqlite3
+backend/.env
+backend/*.log
+backend/media/          # Exclude user-uploaded files
+backend/media/temp
+backend/temp
+backend/staticfiles/    # Exclude collected static files
+
+# React (frontend)
+frontend/node_modules/
+frontend/build/
+frontend/.env
+/node_modules/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System Files
+.DS_Store
+Thumbs.db
+/myvenv/
