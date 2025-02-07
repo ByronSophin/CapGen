@@ -19,7 +19,7 @@ CapGen is a full-stack web application that allows users to upload videos, trans
   - SRT for subtitle generation
   - Django Rest Framework for handling API requests
 
-
+## Getting Started
 - Clone Repository
 - git clone https://github.com/ByronSophin/CapGen.git
 
